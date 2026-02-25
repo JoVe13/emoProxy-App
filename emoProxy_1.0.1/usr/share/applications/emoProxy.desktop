@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=emoProxy
+Exec=/opt/emoProxy/emoproxy-gui
+Icon=/opt/emoProxy/assets/icon.png
+Type=Application
+Categories=Development;Utility;
+Terminal=false
