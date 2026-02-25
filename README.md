@@ -22,20 +22,20 @@ sudo dpkg -i emoProxy_{version}.deb
 This app will create ssl certs and keys with openssl after pressing the "Clone project" button. They are used for communication with your emo robot.
 
 # Errors you (could) get
-1. ```ap0``` doesnt exist
+1. ### ```ap0``` doesnt exist
    Make sure you started your hotspot! If the hotspot is running but it still gives this error, go to ```/home/{user}/emoProxy/dnsmasq.conf``` and change interface=ap0 to your hotspot interface.
-2. One (or more) of the dependecies wont download
+2. ### One (or more) of the dependecies wont download
    Make sure these packages are downloaded:
    1. git
    2. docker
    3. docker compose plugin
    4. openssl
    Download the ones that wont download manualy.
-3. Directory already exists
+3. ### Directory already exists
    Press the "Delete Repo" button and then the "Clone project" button again. This will redownload the proxy.
-4. Proxy stops (most of the time with a exit code)
+4. ### Proxy stops (most of the time with a exit code)
    Press the "Stop All" button and then the "Start Proxy" button again. This will restart the proxy, even if it was already running.
-5. Docker is already running
+5. ### Docker is already running
    Press the "Stop All" button and then the "Start Docker app" button again. This will stop all docker proceses and start the correct ones again.
-6. Docker containers already exist
+6. ### Docker containers already exist
    Press the "Del Containers" button and then the "Start Docker app" button again. After this the docker containers will be re-downloaded again.
