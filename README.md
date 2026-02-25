@@ -3,6 +3,8 @@ This app is at the moment only for debian operating systems.
 Making a hotspot is still your task.
 # emoProxy
 The Proxy but then in an debian app! It has everything from the proxy in it so its a lot faster to setup.
+
+Proxy link: https://github.com/emo-libre
 # How to install
 1. go to the release tab and download the latest version (emoproxy_v{version}.deb)
 2. Install the package with your installer. Example:
