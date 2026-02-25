@@ -1,4 +1,3 @@
-# AT THE MOMENT ITS NOT WORKING!!!!
 # WARNING! THIS IS A FULLY NEW APP, PLEASE SUSPECT BUGS!
 This app is at the moment only for debian operating systems.
 Making a hotspot is still your task.
