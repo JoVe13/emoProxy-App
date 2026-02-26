@@ -7,7 +7,7 @@ The Proxy but then in an debian app! It has everything from the proxy in it so i
 Proxy link: https://github.com/emo-libre
 # How to install
 1. go to the release tab and download the latest version (emoproxy_86x-64x.appimage)
-2. Open the app. Example:
+2. Open the app. Do this by double clicking the .appimage or running this command:
 ```
 ./emoProxy-x86_64.AppImage
 ```
