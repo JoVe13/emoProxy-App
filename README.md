@@ -4,6 +4,8 @@ Making a hotspot is still your task.
 # emoProxy
 The Proxy but then in an AppImage! It has everything from the proxy in it so its a lot faster to setup.
 
+# THE SCRIPT AND BETTER INSTALL GUIDE BY SUDOED_MASTER :D
+
 Proxy link: https://github.com/emo-libre
 # How to install
 1. go to the release tab and download the latest version (emoproxy_86x-64x.appimage)
