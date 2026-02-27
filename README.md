@@ -9,17 +9,22 @@ The Proxy but then in an AppImage! It has everything from the proxy in it so its
 
 ---
 
-# THE SCRIPT AND BETTER INSTALL GUIDE BY SUDOED_MASTER :D
+
 
 Proxy link: https://github.com/emo-libre
 # How to install
-1. go to the release tab and download the latest version (emoproxy_86x-64x.appimage)
+1. go to the release tab and download the latest version (emoproxy_86x-64x.appimage) and download the fuse3 installer for your OS.
 2. **Install FUSE** (or double click the file for opening without install)
 # Install FUSE on Linux
-
-This guide shows how to install FUSE on Debian based, Arch based, and Fedora based distributions.
-
 FUSE means Filesystem in Userspace. It allows non root users to create and mount their own filesystems.
+
+Double click the downloaded .sh file for your OS and wait until it's installed. For manual instalation:
+
+<details>
+  <summary>Manual installation</summary>
+
+# BETTER INSTALL GUIDE BY SUDOED_MASTER :D
+This guide shows how to install FUSE on Debian based, Arch based, and Fedora based distributions.
 
 ---
 
@@ -41,9 +46,9 @@ If it prints a version, FUSE is already installed.
 
 ---
 
-## Debian and Ubuntu
-
-Works for Debian, Ubuntu, Linux Mint, Pop OS and other Debian based systems.
+<details>
+  <summary>Debian and Ubuntu</summary>
+ Works for Debian, Ubuntu, Linux Mint, Pop OS and other Debian based systems.
 
 Update package list:
 
@@ -71,7 +76,10 @@ fusermount3 --version
 
 ---
 
-## Arch Linux and Manjaro
+</details>
+
+<details>
+  <summary>Arch Linux and Manjaro</summary>
 
 Update system:
 
@@ -99,7 +107,10 @@ fusermount3 --version
 
 ---
 
-## Fedora
+</details>
+
+<details>
+  <summary>Fedora</summary>
 
 Update system:
 
@@ -127,7 +138,10 @@ fusermount3 --version
 
 ---
 
-## Add user to fuse group if needed (not recomended if it allredy works !!)
+</details>
+</details>
+
+## Add user to fuse group if needed (not recomended if it allready works !!)
 
 Some systems require your user to be in the fuse group.
 
