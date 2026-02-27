@@ -1,6 +1,6 @@
 # WARNING! THIS IS A FULLY NEW APP, PLEASE EXPECT BUGS!
 This app is for all linux operating systems that IS x86-64 USUALLY its intel or AMD if it doesnt work pls make an issue and we will run like 5 lamborginis to try and fix this.
-Making a hotspot is still your task. Go [here]() for how to setup the linux-wifi-hotspot package with the correct settings.
+Go [here](https://github.com/JoVe13/emoProxy/blob/main/README.md?plain=1#L219) for how to setup the linux-wifi-hotspot package with the correct settings.
 
 ---
 
@@ -202,8 +202,8 @@ we use ~ to represent /home/yourusername/ so ~/ will be /home/yourusername/ itll
 ---
 
 # Using the app
-1. Make a hotspot. go [here]() for an easy tutorial on how to use the linux-wifi-hotspot app with the correct settings.
-2. Open the app and press "Install dependencies". At the right you will see the logs, check if everything goes to plan. Please go to [this part](https://github.com/JoVe13/emoProxy/blob/main/README.md?plain=1#L222) if something goes wrong in this step.
+1. Make a hotspot. go [here](https://github.com/JoVe13/emoProxy/blob/main/README.md?plain=1#L219) for an easy tutorial on how to use the linux-wifi-hotspot app with the correct settings.
+2. Open the app and press "Install dependencies". At the right you will see the logs, check if everything goes to plan. Please go to [this part](https://github.com/JoVe13/emoProxy/blob/main/README.md?plain=1#L260) if something goes wrong in this step.
 3. Clone the project by pressing its button. If it says the direcotory already exists, it can be you pressed the button before. To be safe, click the "Delete Repo" button and the click the "Clone project" button again.
 4. Press "Start Proxy". At the right it will say it started. If it stops (most of the time it will give an exit code), then click first "Stop All" and then "Start Proxy" again.
 5. Press "Start Docker app". It will start docker.If it gives the error that the containers already exist with the same name, press the "Del Containers" button first and then press the docker button again.
