@@ -6,7 +6,8 @@ The Proxy but then in an AppImage! It has everything from the proxy in it so its
 
 Proxy link: https://github.com/emo-libre
 # How to install
-1. **Install FUSE**
+1. go to the release tab and download the latest version (emoproxy_86x-64x.appimage)
+2. **Install FUSE**
 # Install FUSE on Linux
 
 This guide shows how to install FUSE on Debian based, Arch based, and Fedora based distributions.
@@ -153,12 +154,12 @@ lsmod | grep fuse
 
 ---
 
-2) CHMOD - a way to allow your system to trust and execute the appimage
+3) CHMOD - a way to allow your system to trust and execute the appimage
  do :-
 ```
 chmod +x emoProxy-x86_64.AppImage
 ```
-3) **to add the app to the taskbar and Application Menu**
+4) **to add the app to the taskbar and Application Menu**
 there are two options
  a) use  Gearlever a flatpak app that basically is a gui to add your apps to your app library and manage them easier with them all being in one gui
 Its an external app YOU NEED FUSE -- xyphen
