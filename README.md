@@ -8,7 +8,7 @@ Go [here](https://github.com/JoVe13/emoProxy/blob/main/README.md?plain=1#L219) f
 The Proxy but then in an AppImage! It has everything from the proxy in it so its a lot faster to setup.
 
 ---
-## THANKS TO SUDOED_MASTER FOR THE UPDATED STEPS AND THE SCRIPT! :D
+## THANKS TO [SUDOED_MASTER](https://github.com/Sudoed-Master) FOR THE UPDATED STEPS AND THE SCRIPT! :D
 
 
 Proxy link: https://github.com/emo-libre
