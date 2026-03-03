@@ -8,7 +8,7 @@ Go [here](https://github.com/JoVe13/emoProxy/blob/main/README.md?plain=1#L219) f
 The Proxy but then in an AppImage! It has everything from the proxy in it so its a lot faster to setup.
 
 ---
-
+## THANKS TO SUDOED_MASTER FOR THE UPDATED STEPS AND THE SCRIPT! :D
 
 
 Proxy link: https://github.com/emo-libre
@@ -22,8 +22,6 @@ Double click the downloaded .sh file for your OS and wait until it's installed. 
 
 <details>
   <summary>Manual installation</summary>
-
-# BETTER INSTALL GUIDE BY SUDOED_MASTER :D
 This guide shows how to install FUSE on Debian based, Arch based, and Fedora based distributions.
 
 ---
@@ -190,7 +188,18 @@ Its an external app YOU NEED FUSE -- xyphen
 to do so :-
 keep the appimage and execute this is the same directory itll also chmod it so you dont need to YOU NEED FUSE :-
 ```
-chmod +x emoProxy-x86_64.AppImage && ./emoProxy-x86_64.AppImage --appimage-extract && cd squashfs-root && rm -rf ~/emoproxy-ea && rm -rf ~/emoproxy-ea/. && mkdir -p ~/emoproxy-ea && cp -r * ~/emoproxy-ea && rm -rf squashfs-root && cd ~/emoproxy-ea && chmod +x AppRun && echo -e "[Desktop Entry]\nType=Application\nName=emoproxy-ea\nExec=~/emoproxy-ea/AppRun\nIcon=~/emoproxy-ea/Icon.png" > eouoep.desktop && desktop-file-install --dir=~/.local/share/applications eouoep.desktop && echo -e 'All install process done for the AppImage thank you for trying this out, script made by Sudoed_Master and it definitely didn’t take an hour to write :D' && cd ~
+chmod +x emoProxy-x86_64.AppImage && \
+./emoProxy-x86_64.AppImage --appimage-extract && \
+rm -rf ~/emoproxy-ea && mkdir -p ~/emoproxy-ea && \
+cp -r squashfs-root/. ~/emoproxy-ea/ && \
+cd .. && rm -rf squashfs-root && \
+cd ~/emoproxy-ea && \
+chmod +x AppRun && \
+echo -e "[Desktop Entry]\nType=Application\nName=emoproxy-ea\nExec=$HOME/emoproxy-ea/AppRun\nIcon=$HOME/emoproxy-ea/icon.png" > eouoep.desktop && \
+desktop-file-install --dir="$HOME/.local/share/applications" eouoep.desktop && \
+update-desktop-database "$HOME/.local/share/applications" 2>/dev/null && \
+echo "All install process done for the AppImage. Thank you for trying this out – script made by Sudoed_Master and it definitely didn't take an hour to write :D" && \
+cd "$HOME"
 ```
 
 if the app doesnt launch change the ~/ with this template be sure to put your username in
